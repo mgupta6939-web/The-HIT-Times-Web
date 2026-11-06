@@ -13,6 +13,17 @@ export interface TabloidIssue {
 
 export const TABLOID_ISSUES: TabloidIssue[] = [
   {
+    id: "issue-12",
+    issueNumber: 12,
+    driveId: "1mIX6cQCOYcIBWHZVglwg1UMDMmT6LUaB",
+    title: "Tabloid Issue 12",
+    subtitle: "Latest Print Edition",
+    date: "2024",
+    pdfUrl: "/api/tabloids/pdf?id=1mIX6cQCOYcIBWHZVglwg1UMDMmT6LUaB",
+    thumbnailUrl: "https://drive.google.com/thumbnail?id=1mIX6cQCOYcIBWHZVglwg1UMDMmT6LUaB&sz=w600",
+    drivePreviewUrl: "https://drive.google.com/file/d/1mIX6cQCOYcIBWHZVglwg1UMDMmT6LUaB/preview",
+  },
+  {
     id: "issue-11",
     issueNumber: 11,
     driveId: "1veba6c-gUBntMdCxoOeiTsQ42G1lEHWD",

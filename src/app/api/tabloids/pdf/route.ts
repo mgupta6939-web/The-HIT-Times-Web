@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 export const dynamic = "force-dynamic";
 
 const KNOWN_DRIVE_IDS = new Set([
+  "1mIX6cQCOYcIBWHZVglwg1UMDMmT6LUaB", // Issue 12
   "1veba6c-gUBntMdCxoOeiTsQ42G1lEHWD", // Issue 11
   "1aGkUuleaTzujKY6XwoL8HLLfVJCCZNaN", // Issue 10
   "19R0ctZ-LhKZ1IeKrukeoh3UW41v-C6wK", // Issue 9
